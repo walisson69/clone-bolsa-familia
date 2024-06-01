@@ -26,7 +26,7 @@ janela_principal = [
     
 ]
 
-
+#isso é apenas uma brincadeira para testar meu conhecimento
 
 janela = sg.Window('Princinpal',layout=janela_principal)
 
@@ -35,13 +35,13 @@ while True:
     if event == sg.WIN_CLOSED:
         break
     elif event == 'Enviar dados':
-        email = values['Nome: ']
+        nome1 = values['Nome: ']
         senha = values['Cpf: ']
-        nome = values['nome do fihlo: ']
+        nome2 = values['nome do fihlo: ']
         cpf = values['CPf: ']
-        print(f'nome do otario: {email}')
+        print(f'nome do otario: {nome1}')
         print(f'cpf do otario: {senha}')
-        print(f'nome do filho: {nome}')
+        print(f'nome do filho: {nome2}')
         print(f'cpf do filho: {cpf}')
         
 
