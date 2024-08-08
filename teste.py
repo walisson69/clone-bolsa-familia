@@ -39,8 +39,8 @@ while True:
         senha = values['Cpf: ']
         nome2 = values['nome do fihlo: ']
         cpf = values['CPf: ']
-        print(f'nome do otario: {nome1}')
-        print(f'cpf do otario: {senha}')
+        print(f'nome do user: {nome1}')
+        print(f'cpf do user: {senha}')
         print(f'nome do filho: {nome2}')
         print(f'cpf do filho: {cpf}')
         
